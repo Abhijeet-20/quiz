@@ -1,0 +1,106 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color:  #f2f2f2;
+}
+.wrapper{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    width: 600px;
+    min-height: 90vh;
+    padding: 20px 0;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8854C0;
+}
+.score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+.question_body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+}
+#question{
+    text-align: center;
+}
+.options{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.option{
+    padding: 10px 50px;
+    list-style: none;
+    background-color: #8854C0;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-color: #f2f2f2;
+    box-shadow: 0 4px 0 0 #bbbbbb;
+}
+.allbuttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 20px; */
+}
+button{
+    align-self: center;
+    padding: 15px 30px;
+    outline: none;
+    cursor: pointer;
+    color: #000;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 1px solid black;
+    letter-spacing: 2px;
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 0 0 #bbbbbb;
+}
+button:hover{
+    background-color: #e6e6e6;
+    box-shadow: 0 4px 0 0 #a7a7a7;
+}
+#play_again{
+    display: none;
+}
+.quiz_options li:active{
+    transform: scale(0.97);
+}
+.selected{
+    background-color: #f2f2f2!important;
+    color: #000!important;
+    border-color: #f2f2f2!important;
+    box-shadow: 0 4px 0 0 #bbbbbb!important;
+}
+#result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
